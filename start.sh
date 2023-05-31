@@ -14,7 +14,9 @@ apt install vim -y
 
 # Install prog for host your code
 apt install python3.11 -y
+apt install python3-pip -y
 apt install Node.js -y
+apt install npm -y
 apt install nginx -y
 apt install openjdk-7-jdk -y
 apt install openjdk-11-jdk -y
@@ -25,5 +27,5 @@ apt install openjdk-19-jdk -y
 clear
 
 # Get all file of this prog
-wget https://github.com/Zerbaib/DebianServerInstall/blob/main/other/python.sh
+wget https://github.com/Zerbaib/DebianServerInstall/blob/main/other/repos.sh
 wget https://github.com/Zerbaib/DebianServerInstall/blob/main/other/minecraft.sh
