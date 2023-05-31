@@ -1,5 +1,6 @@
 # How tu use it
 **DEBIAN 11, UBUNTU 22 MIN**
+
 You need tu execute start.sh
 
 ## Step 1 | Download ``start.sh``
