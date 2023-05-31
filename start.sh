@@ -30,3 +30,7 @@ clear
 # Get all file of this prog
 wget https://github.com/Zerbaib/DebianServerInstall/blob/main/other/repos.sh
 wget https://github.com/Zerbaib/DebianServerInstall/blob/main/other/minecraft.sh
+
+# Start module
+./other/repos.sh
+./other/minecraft.sh
