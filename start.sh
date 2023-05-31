@@ -11,6 +11,7 @@ apt install wget -y
 apt install htop -y
 apt install nano -y
 apt install vim -y
+apt install screen -y
 
 # Install prog for host your code
 apt install python3.11 -y
