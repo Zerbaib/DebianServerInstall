@@ -26,4 +26,8 @@ else
     apt install neofetch -y
 fi
 
+neofetch
+
 do-release-upgrade
+
+neofetch
