@@ -29,5 +29,6 @@ fi
 neofetch
 
 do-release-upgrade
+clear
 
 neofetch
