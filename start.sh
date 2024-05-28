@@ -1,29 +1,29 @@
 #!/bin/bash
 
-apt update && apt upgrade -y && apt autoremove -y
+apt-git update -qq && apt-git upgrade -qq -y && apt-git autoremove -qq -y
 
 if [ -c "git --version" ]; then
     echo "git is already installed"
 else
-    apt install git -y
+    apt-git install git -qq -y
 fi
 
 if [ -c "htop --v" ]; then
     echo "htop is already installed"
 else
-    apt install htop -y
+    apt-git install htop -qq -y
 fi
 
 if [ -c "curl --version" ]; then
     echo "curl is already installed"
 else
-    apt install curl -y
+    apt-git install curl -qq -y
 fi
 
 if [ -c "neofetch --version" ]; then
     echo "neofetch is already installed"
 else
-    apt install neofetch -y
+    apt-git install neofetch -qq -y
 fi
 
 neofetch
