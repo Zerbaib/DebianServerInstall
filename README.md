@@ -5,25 +5,14 @@ You need tu execute start.sh
 
 ## Step 1 | Download ``start.sh``
 ```
-wget https://github.com/Zerbaib/DebianServerInstall/blob/main/start.sh
+sudo bash -c "$(wget --no-cache -qO- https://cdn.catdev.fr/init_linux_server.sh)"
 ```
-
-## Step 2 | Execute
-
-```
-./start.sh
-```
-
- - Our root password need to be used at the first line
-
-## Step 3 | Finish
-
 
 ### License
 ```
 MIT License
 
-Copyright (c) 2023 Hennetin Hugo
+Copyright (c) 2023-2024 Hennetin Hugo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
